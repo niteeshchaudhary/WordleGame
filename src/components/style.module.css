@@ -1,0 +1,199 @@
+.middle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 4rem 0;
+}
+.board{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.rows{
+    display:flex;
+    flex-direction: rows;
+}
+.blocks{
+    height:3.5rem;
+    width:3.5rem;
+    font-weight: 800;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: var(--fontcolor);
+    border:2px solid var(--borders);
+    background-color: var(--background2);
+}
+
+.cblocks{
+    height:3.5rem;
+    width:3.5rem;
+    font-weight: 800;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #fff;
+    border:2px solid var(--borders);
+    background-color: var(--grcolor);
+}
+.ylblocks{
+    height:3.5rem;
+    width:3.5rem;
+    font-weight: 800;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #fff;
+    border:2px solid var(--borders);
+    background-color: var(--ylcolor);
+}
+.gyblocks{
+    height:3.5rem;
+    width:3.5rem;
+    font-weight: 800;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #fff;
+    border:2px solid var(--borders);
+    background-color: var(--greycolor);
+}
+
+@media (max-width:900px) {
+    .middle{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 3rem 0;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .blocks{
+        height:3rem;
+        width:3rem;
+        font-weight: 700;
+        font-size: 2.1em;
+        text-transform: uppercase;
+        color: var(--fontcolor);
+        border:2px solid var(--borders);
+    }
+    .ylblocks{
+        height:3rem;
+        width:3rem;
+        font-weight: 700;
+        font-size: 2.1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--ylcolor);
+    }
+
+    .gyblocks{
+        height:3rem;
+        width:3rem;
+        font-weight: 700;
+        font-size: 2.1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--greycolor);
+    }
+
+    .cblocks{
+        height:3rem;
+        width:3rem;
+        font-weight: 700;
+        font-size: 2.1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--grcolor);
+    }
+}
+
+@media (max-width:450px) {
+    .blocks{
+        height:2.5rem;
+        width:2.5rem;
+        font-weight: 500;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: var(--fontcolor);
+        border:1px solid var(--borders);
+    }
+    .cblocks{
+        height:2.5rem;
+        width:2.5rem;
+        font-weight: 500;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #fff;
+        border:1px solid var(--borders);
+        background-color: var(--grcolor);
+    }
+
+    .gyblocks{
+        height:2.5rem;
+        width:2.5rem;
+        font-weight: 500;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #fff;
+        border:1px solid var(--borders);
+        background-color: var(--greycolor);
+    }
+
+    .ylblocks{
+        height:2.5rem;
+        width:2.5rem;
+        font-weight: 500;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #fff;
+        border:1px solid var(--borders);
+        background-color: var(--ylcolor);
+    }
+}
+
+@media (max-width:300px) {
+    .blocks{
+        height:2rem;
+        width:2rem;
+        font-weight: 450;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: var(--fontcolor);
+        border:2px solid var(--borders);
+    }
+    .cblocks{
+        height:2rem;
+        width:2rem;
+        font-weight: 450;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--grcolor);
+    }
+
+    .gyblocks{
+        height:2rem;
+        width:2rem;
+        font-weight: 450;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--greycolor);
+    }
+    .ylblocks{
+        height:2rem;
+        width:2rem;
+        font-weight: 450;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #fff;
+        border:2px solid var(--borders);
+        background-color: var(--ylcolor);
+    }
+}

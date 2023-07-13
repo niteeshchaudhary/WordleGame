@@ -1,3 +1,20 @@
+:root{
+  --background:#020320;
+  --background2:#000000;
+  --fontcolor:#fff;
+  --ylcolor: rgb(241, 207, 13);
+  --grcolor: green;
+  --greycolor:rgb(169, 162, 162);
+  --borders:#bbb;
+}
+
+.light{
+  --background:#ddcdcd;
+  --fontcolor:#706161;
+  --background2:#fffcfc;
+  --borders:#a78f8f;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +22,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.gutter {
+  margin:  40px 30px;
+}
+
+.cover-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top:100vh;
+  background-position: center;
+}
+
+.block-50 {
+  width: 32%;
+  display: inline-block;
+}
+
+.panelCon{
+    position: fixed;
+    bottom: 0;
+    left:0;
+      left: 34%;
+    width: 32%;
+}
+.panel {
+    width: 100%;
 }

@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-
 import Middle from "./components/Middle";
 import TopNav from "./components/TopNav";
 import Keyboard from "./components/Keyboard";

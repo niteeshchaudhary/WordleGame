@@ -34,7 +34,7 @@ jobs:
          CI: false
          PAT_TOKEN: ${{ secrets.PAT}}
     - name: Deploy to GitHub Pages
-      uses: niteeshchaudhary/WordleGame@v4
       with:
           github_token: ${{ secrets.PAT}}
           publish_dir: ./build
+          publish_branch: host

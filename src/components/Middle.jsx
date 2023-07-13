@@ -82,7 +82,7 @@ export default function Middle() {
         updatedArray[turns][4] = "";
       }
       setarrw(updatedArray);
-    } else if ("qwertyuiopasdfghjklzxcvbnm".includes(event.key)) {
+    } else if("qwertyuiopasdfghjklzxcvbnm".includes(event.key)){
       const updatedArray = [...arrw];
       const innerArray = updatedArray[turns];
       console.log(turns);

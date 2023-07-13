@@ -23,9 +23,9 @@ export default function TopNav() {
           <button className={style.btn} onClick={changetheme}>
             <FontAwesomeIcon icon={ico} style={{ color: "#b5a5b5" }} />
           </button>
-          <a href="#">Stats</a>
-          <a href="#">Settings</a>
-          <a href="#">Login</a>
+          <a href="./">Stats</a>
+          <a href="./">Settings</a>
+          <a href="./">Login</a>
         </div>
       </div>
     </>

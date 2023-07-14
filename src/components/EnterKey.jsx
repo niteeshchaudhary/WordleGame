@@ -1,6 +1,6 @@
 import style from "./keyboard.module.css";
 
-export default function MyKeys({}) {
+export default function EnterKey() {
   const doclick = () => {
     const event = new KeyboardEvent("keydown", {
       key: "Enter", // Specify the key you want to simulate

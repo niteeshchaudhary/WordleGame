@@ -1,5 +1,6 @@
 import MyKeys from "./Mykeys";
 import EnterKey from "./EnterKey";
+import BackSpaceKey from "./BackSpaceKey";
 import style from "./keyboard.module.css";
 export default function Keyboard() {
   return (
@@ -13,6 +14,7 @@ export default function Keyboard() {
         {Array.from("asdfghjkl".split("")).map((ele, index) => (
           <MyKeys key={index} content={ele} state={0} />
         ))}
+        <BackSpaceKey />
       </div>
       <div className={style.row1} key={2}>
         {Array.from("zxcvbnm".split("")).map((ele, index) => (

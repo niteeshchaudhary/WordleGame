@@ -1,4 +1,3 @@
-import { useState } from "react";
 import style from "./keyboard.module.css";
 
 export default function MyKeys({ state, content }) {

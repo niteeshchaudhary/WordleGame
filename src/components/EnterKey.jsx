@@ -1,6 +1,4 @@
-import { useState } from "react";
 import style from "./keyboard.module.css";
-import { BsArrowReturnLeft } from "react-icons";
 
 export default function MyKeys({}) {
   const doclick = () => {

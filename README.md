@@ -1,3 +1,4 @@
 ## Play Wordle Game
-npm i 
+
+npm i <br>
 npm start

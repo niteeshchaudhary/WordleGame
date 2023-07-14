@@ -40,7 +40,7 @@ export default function Middle() {
 
       const innerArray = updatedArray[turns];
       const result = innerArray.join("");
-      if (result.length != 5) {
+      if (result.length !== 5) {
         return;
       }
       var myList = myword.split("");
@@ -62,7 +62,7 @@ export default function Middle() {
           }
         }
         for (let i = 0; i < 5; i++) {
-          if ("_" != myList[i] && innerArray.includes(myList[i])) {
+          if ("_" !== myList[i] && innerArray.includes(myList[i])) {
             updatedState[turns][innerArray.indexOf(myList[i])] = 2;
             myList[i] = "_";
           }

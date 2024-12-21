@@ -1,15 +1,22 @@
 .middle{
     display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 .board{
     display:flex;
     flex-direction: column;
 
 }
-
+.results{
+    user-select: none;
+    text-transform: uppercase;
+    color: var(--fontcolor);
+    /* border:2px solid var(--borders);
+    background-color: var(--background2); */
+}
 .rows{
     display:flex;
     flex-direction: rows;
@@ -19,6 +26,7 @@
     width:3.5rem;
     font-weight: 800;
     font-size: 2.2em;
+    user-select: none;
     text-transform: uppercase;
     color: var(--fontcolor);
     border:2px solid var(--borders);
@@ -30,6 +38,7 @@
     width:3.5rem;
     font-weight: 800;
     font-size: 2.2em;
+    user-select: none;
     text-transform: uppercase;
     color: #fff;
     border:2px solid var(--borders);
@@ -40,6 +49,7 @@
     width:3.5rem;
     font-weight: 800;
     font-size: 2.2em;
+    user-select: none;
     text-transform: uppercase;
     color: #fff;
     border:2px solid var(--borders);
@@ -50,6 +60,7 @@
     width:3.5rem;
     font-weight: 800;
     font-size: 2.2em;
+    user-select: none;
     text-transform: uppercase;
     color: #fff;
     border:2px solid var(--borders);

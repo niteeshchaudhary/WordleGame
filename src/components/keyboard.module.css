@@ -3,6 +3,7 @@
     justify-content: center;
 }
 .keys{
+    user-select: none;
     margin:2px 2px;
     height:3.5rem;
     width:3.5rem;

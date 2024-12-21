@@ -6,11 +6,16 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 
 export default function TopNav() {
   const [ico, setico] = useState(faSun);
+  if(localStorage.getItem("theme")){
+    document.getElementById("bd").setAttribute("class", localStorage.getItem("theme"));
+  }
   const changetheme = () => {
     if (document.getElementById("bd").className !== "light") {
+      localStorage.setItem("theme","light");
       document.getElementById("bd").setAttribute("class", "light");
       setico(faMoon);
     } else {
+      localStorage.setItem("theme","dark");
       document.getElementById("bd").setAttribute("class", "dark");
       setico(faSun);
     }

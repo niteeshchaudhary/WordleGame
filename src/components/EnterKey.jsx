@@ -8,17 +8,7 @@ export default function EnterKey() {
     document.body.dispatchEvent(event);
   };
   return (
-    // <div
-    //   className={
-    //     state === 0
-    //       ? style.blocks
-    //       : state === 1
-    //       ? style.gyblocks
-    //       : state === 2
-    //       ? style.ylblocks
-    //       : style.cblocks
-    //   }
-    // >
+
     <button className={style.keys} onClick={doclick}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +22,5 @@ export default function EnterKey() {
         />
       </svg>
     </button>
-    //   {content === "*" ? "" : content}
-    // </div>
   );
 }
